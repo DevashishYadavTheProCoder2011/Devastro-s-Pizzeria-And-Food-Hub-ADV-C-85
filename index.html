@@ -1,0 +1,87 @@
+<html>
+<head>
+    <title>Devastro's Pizzeria And Food hub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+<script src="pizza.js"></script>
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="#welcome">Devastro's Pizzeria And Food Hub</a>
+        <div class="topnav-right">
+         <a href="#viewblock">Vist Pizzeria</a>
+        
+         <a href="#hub">Vist Food Hub</a>
+        </div>
+    </div><br><br><br><br><br>
+<section id="welcome">
+    <center>  <img src="logo_size.jpg" id="logo">
+        </center>
+</section><br><br><br>
+<center>
+    <h4>Welcome To Devastro's Pizzeria</h4>
+    <h4>Made By Devashish Yadav</h4>
+                </center>
+    <div class="row" id="viewblock">
+        <div  class="img_div"> 
+        </div>
+        <div class="menu_div">
+            
+            <button id="menu_list" onclick="getmenu() ">Show Menu</button>
+
+           <div id="display_menu"></div>
+        </div>
+    </div>
+    
+    <div class="newRow" id="addTopings">
+        <div class="block1">
+            <input id="add_item" placeholder="Type here to add new pizza
+            "></br>
+            <button id="add_toppings" onclick="add_item()" > Get The Added Pizza And Recommended Pizzas</button>
+        </div>
+        <div class="block2">
+            <div id="display_addedmenu">
+            </div>
+        </div>
+        
+        
+    </div>
+
+    <div>
+       
+    </div>
+  
+    <center> <h6>Pls Don't Directly Click The Button First Add Pizza</h6></center>
+    <center> <h7>To View Added Pizza In Menu Click Menu Button </h7></center>
+
+    <div id="hub">
+        <center>
+            <h1>Welcome To Devastro's Food hub</h1>
+            <h2>Burgers Section </h2>
+        </center>
+     <div class="card"><img src="burger.jpg">Double Cheese Burger<img src="burger.jpg">Supreme Cheese Burger<img src="burger.jpg"> Mc Aloo Tikki Burger<img src="burger.jpg"> McSpicy Premium Veg Burger</div>
+     <center>
+        
+        <h2>Frankies Section </h2>
+    </center>
+    <div class="card"><img src="frankie.png"> Paneer Tikka Frankie Wrap<img src="frankie.png">Aloo Cheese Paneer Frankie<img src="frankie.png"> Cheese Schezwan Noodles Frankie<img src="frankie.png"> Veg Tandoori Frankie</div>
+    <center>
+        
+        <h2> Sandwich Section </h2>
+    </center>
+    <div class="card"><img src="sandwich.png"> Veg Sandwich<img src="sandwich.png">Aloo Cheese Toast Sandwich<img src="sandwich.png"> Masala Cheese Toast Sandwich<img src="sandwich.png"> Veg Masala Cheese Grilled Sandwich</div>
+    <center>
+        
+        <h2> Home Style Section </h2>
+    </center>
+    <div class="card"><img src="home.png"> Veg Thali<img src="home.png">Paneer Tikka Masala<img src="home.png"> Butter Roti<img src="home.png">Dal Tadka<img src="home.png">Jeera Rice<img src="home.png">Curd</div>
+    <center><h2> Beverages Section </h2>
+</center>
+<div class="card"><img src="tea.png"> Tea<img src="coffee.png">Hot Coffee<img src="cold coffee.png">Cold Coffee<img src="milk.png">Milk<img src="coke.png">Coca-Cola<img src="sm.png">Strawberry Milkshake<img src="ic.png">Ice Cream
+</div>
+  </div></body></html>
